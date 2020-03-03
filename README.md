@@ -1,1 +1,2 @@
 # HW4-Web-APIs
+This application is meant to generate questions for a coding quiz providing the user with four possible answers, only one of which is correct. If the user chooses an incorrect answer, the timer (which starts upon starting the quiz) will decrement time as a penalty. 

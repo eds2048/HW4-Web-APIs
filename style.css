@@ -1,0 +1,36 @@
+
+
+
+
+
+
+#startBtn {
+  border: none;
+  background-color: rgb(8, 11, 175);
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
+    0px;
+  color: hsl(0, 0%, 100%);
+  display: inline-block;
+  font-size: 22px;
+  line-height: 22px;
+  margin: 16px 16px 16px 20px;
+  padding: 14px 34px;
+  text-align: center;
+  cursor: pointer;
+}
+.card-body {
+  text-align: center;
+}
+.card-body::before {
+  content: " ";
+  display: block;
+  width: 100%;
+  background: #e7e9eb;
+  height: 2px;
+}
+.card-body::after {
+  content: " ";
+  display: block;
+  clear: both;
+}
